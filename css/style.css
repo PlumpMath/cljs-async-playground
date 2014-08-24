@@ -1,0 +1,35 @@
+body {
+  font-family: 'Helvetica Neue';
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  border: solid 1px #eee;
+  padding: 10px;
+}
+
+table td:first-child {
+  width: 40%;
+}
+
+p {
+  margin: 10px 0;
+  background: #fff;
+}
+
+#drag, #drop {
+  display: inline-block;
+  padding: 10px;
+}
+
+#drag {
+  border: solid 1px pink;
+}
+
+#drop { 
+  border: solid 1px green;
+}
